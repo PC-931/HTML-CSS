@@ -1,8 +1,56 @@
 <!DOCTYPE HTML5>
-
+<style>
+    .form_css{
+        text-align: center ;
+        border-width: 5px;
+    }
+</style>
 <HTML>
  <HEAD> <TITLE>Survey form</TITLE> </HEAD>
  <BODY>
-    
+    <form class="form_css">
+        
+        <p>Name:<br>
+        <input type="text" name="name" placeholder="Enter your name here:" required></input>
+        </p>
+        
+        <p>Email:<br>
+            <input type="email" name="email" placeholder="Enter your email:" required></input>
+        </p>
+        
+        <p>Age(optional):<br>
+            <input type="number" name="age" placeholder="Enter your age:"></input>
+        </p>
+        
+        <p>Which option describes your current job:<br>
+            <input type="drop-down" name="role" placeholder="Select the role you want:" required></input>
+        </p>
+        <!--incomplete-->
+        <p>Want to learn more fundamentals of Html CSS:<br>
+            <input type="dropdown" name=""></input><br>
+        </p>
+
+        <p>What you would like to learn next:<br>
+            <input type="checkbox" name="courses">HTML</input><br>
+            <input type="checkbox" name="courses">CSS</input><br>
+            <input type="checkbox" name="courses">Python</input><br>
+            <input type="checkbox" name="courses">Java</input><br>
+            <input type="checkbox" name="courses">JavaScript</input><br>
+            <input type="checkbox" name="courses">Bootstrap</input><br>
+        </p>
+
+        <p>Would you like to learn more from us:<br>
+            <input type="radio" name="yes_no">Definitely</input><br>
+            <input type="radio" name="yes_no">Maybe</input><br>
+            <input type="radio" name="yes_no">Sometimes</input><br>
+        </p>
+
+        <p>Any more sugesstions from your side:<br>
+            <input type="text" name="feedback" placeholder="Please add your sugesstions here:"></input>
+        </p>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
  </BODY>
 </HTML>
