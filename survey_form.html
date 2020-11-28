@@ -1,13 +1,20 @@
 <!DOCTYPE HTML5>
 <style>
     .form_css{
-        text-align: center ;
         border-width: 5px;
     }
+
+    body{
+        background-color:rgba(58, 58, 211, 0.8);
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center ;
+    }
+
 </style>
 <HTML>
  <HEAD> <TITLE>Survey form</TITLE> </HEAD>
  <BODY>
+    <h1 >Coding Gurus Survey Form</h1>
     <form class="form_css">
         
         <p>Name:<br>
@@ -19,7 +26,7 @@
         </p>
         
         <p>Age(optional):<br>
-            <input type="number" name="age" placeholder="Enter your age:"></input>
+            <input type="number" name="age" min=10 max=70 placeholder="Enter your age:"></input>
         </p>
         
         <p>Which option describes your current job:<br>
