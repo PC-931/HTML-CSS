@@ -1,0 +1,44 @@
+.top{
+    background-color: orangered;
+    padding:1% 1% 1% 1%;
+}
+
+.logo{
+    background-color: rgb(212, 202, 198);
+    padding:2% 2% 2% 2%;
+}
+
+.log{
+    text-align: right;
+}
+
+body{
+    background-color: rgb(226, 221, 214);
+}
+
+.heading{
+    color:rgb(219, 82, 3);
+    font-size: 25px;
+}
+
+.content{
+    padding: 0% 2% 0% 2%;
+}
+
+/* isko right align krna hai  mujhe */
+.reachUs{
+    overflow: hidden;
+}
+
+.submit-button{
+    color: inherit;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0% 2% 0% 2%;
+  }
